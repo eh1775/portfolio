@@ -49,9 +49,9 @@ class App extends Component {
       this.setState ({
         isVisible: !this.state.isVisible,
         drawingVisible: false,
-        currentButton: "Implemented is a keypad with numbers from 0 to 9. Once the participant selects three numbers and clicks play, the result is displayed with the randomly generated correct sequence, the number of points lost and a statement to get participants to play again",
+        currentButton: "I Implemented a keypad with numbers from 0 to 9. Once the participant selects three numbers and clicks play, the result is displayed with the randomly generated correct sequence, the number of points lost and a statement to get participants to play again",
         research: "",
-        insights: ""
+        insights: "", 
       })
     }
 
@@ -86,9 +86,8 @@ class App extends Component {
           <div className="ResultBox">
 
             <div className = "prototype">
-            { this.state.isVisible ? (
-                 <iframe src="https://giphy.com/embed/61Z51JR4SNysUVVdKN" width="480" height="252" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-            ) : null }
+            { this.state.isVisible ? (<iframe src="https://giphy.com/embed/61Z51JR4SNysUVVdKN" width="480" height="252" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>) : null }
+            { this.state.isVisible ? (<p><a href= "https://sheltered-retreat-77584.herokuapp.com/">Demo</a></p>) : null }
             </div>
 
             <p className="result">{this.state.currentButton}</p>
@@ -101,6 +100,7 @@ class App extends Component {
 
             <p className="result">{this.state.research}</p>
             <p className="result">{this.state.insights}</p>
+            <p className="result">{this.state.demo}</p>
 
           </div>
   
