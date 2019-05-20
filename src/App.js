@@ -58,11 +58,11 @@ class App extends Component {
 
     futureClicked = () =>{
       this.setState ({
-        currentButton: "Future improvements include both the user experience/design, gameplay. " + 
-        "For the design, it would be great to add sound effects when the user clicks the buttons. It would also improve the experience if there was a bit of animation before the result was showed to build suspense " + 
+        currentButton: "Future improvements include both the user experience/design and gameplay. " + 
+        "For the design, it would be great to add sound effects when the user clicks the buttons. It would also improve the experience if there was a bit of animation before the result was showed to build suspense. " + 
         "For the gameplay, in order to drive engagement, it would great to randomize giving participants a small set of points after a random number of plays. " + 
-        "In order to for researchers this in a larger environment very quickly, I could put this on a blockchain and pay participants small amounst of cryptocurrency. " + 
-        "It would also be helfpul to have a function that shows/hides a box that displays a number of points that a player starts with the test for differences in player behavior",
+        "In order to for researchers to test this in a larger environment very quickly, I could put this on a blockchain and pay participants small amounst of cryptocurrency. " + 
+        "It would also be helfpul to have a function that shows/hides a box that displays a number of points that a player starts with to test for differences in player behavior",
         drawingVisible: false,
         isVisible: false,
         research: "",
