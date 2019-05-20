@@ -1,7 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Mono&display=swap');
+body{
+    background-color: #fffaff;
+}
 .App{
-    margin-top: 8%;
+    margin-top: 4%;
     text-align: center;
 }
 .ButtonRow{
     margin-top:2%;
 }
+h1{
+    font-family: 'Roboto Mono', monospace;
+}
+button{
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  margin: 15%;
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  border: 1.5px solid black;
+  width: 200px;
+  height: 60px;
+  outline: 0;
+  margin:2%;
+}
+.result{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    font-family: 'Roboto Mono', monospace;
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+.prototype{
+    margin-top: 2%;
+    margin-right: 35px;
+}
+.paperDrawing{
+    margin-right: 40px;
+}
+button:hover{
+    cursor: pointer;
+  }
+  
+button:active{
+    color: white;
+    background-color: black;
+}
+.ResultBox{
+    padding-left: 30px;
+    width: 900px;
+    height: 145px;
+    margin-left:255px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
