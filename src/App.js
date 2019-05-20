@@ -34,11 +34,11 @@ class App extends Component {
 
         research: "I consulted articles on general psychology on casino design including an article from theVerge and an article from the Telegraph. " + 
         "I presented several users a paper drawing of the application and asked them for general feedback on the overall design. " + 
-        "I then conducted some basic user testing with several users in order to test for engagement",
+        "I then conducted some basic user testing with several users in order to test for engagement.",
 
-        insights: "Through discussions I learned the decreasing the number of clicks the users increased engagement. " + 
-        "I also found that the design and feeling, particular flashy bright colors also drove engagement because it felt more fun and engaging for the users" + 
-        "Lastly, I also found that displaying the sequence of the house increase engagement because it encouraged people to get the number sequence the next time they played",
+        insights: "Through discussions I learned that decreasing the number of clicks increased engagement. " + 
+        "I also found that the design and feeling, particular flashy, bright colors also drove engagement because it felt more fun and engaging for the users. " + 
+        "Lastly, I also found that displaying the sequence of the house increase engagement because it encouraged people to get the number sequence the next time they played.",
 
         drawingVisible: !this.state.drawingVisible,
         isVisible: false
