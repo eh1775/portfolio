@@ -38,7 +38,7 @@ class App extends Component {
 
         insights: "Through discussions I learned that decreasing the number of clicks increased engagement. " + 
         "I also found that the design and feeling, particular flashy, bright colors also drove engagement because it felt more fun and engaging for the users. " + 
-        "Lastly, I also found that displaying the sequence of the house increase engagement because it encouraged people to get the number sequence the next time they played.",
+        "Lastly, I also found that displaying the sequence of the house increased engagement because it encouraged people to get the number sequence the next time they played.",
 
         drawingVisible: !this.state.drawingVisible,
         isVisible: false
